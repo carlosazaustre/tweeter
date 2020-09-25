@@ -4,7 +4,9 @@
   "description": "UI kit for Tweeter app",
   "main": "index.js",
   "scripts": {
+    "dev": "yarn storybook",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "build-tokens": "node ./scripts/build-tokens.js"
@@ -26,9 +28,24 @@
     "@storybook/addon-links": "^6.0.21",
     "@storybook/react": "^6.0.21",
     "babel-loader": "^8.1.0",
-    "react-is": "^16.13.1"
+    "eslint": "^7.9.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.2",
+    "husky": ">=4",
+    "lint-staged": ">=10",
+    "prettier": "^2.1.2"
   },
-  "dependencies": {
-    "minireset.css": "^0.0.6"
+  "peerDependencies": {
+    "minireset.css": "^0.0.6",
+    "react": "^16.13.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix"
   }
 }
