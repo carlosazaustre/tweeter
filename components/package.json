@@ -4,7 +4,7 @@
   "description": "UI kit for Tweeter app",
   "main": "index.js",
   "scripts": {
-    "dev": "yarn storybook",
+    "dev": "yarn build-tokens && yarn storybook",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint .",
     "storybook": "start-storybook -p 6006",

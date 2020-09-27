@@ -6,7 +6,6 @@
   font-family: var(--font-family-secondary);
   font-weight: var(--font-weight-medium);
   font-size: var(--font-size-md);
-  padding: 8px 32px;
   transition: all 0.5s ease;
 }
 .button:hover {
@@ -23,6 +22,7 @@
 }
 
 .size-md {
+  padding: 8px 32px;
 }
 
 .size-sm {

@@ -1,0 +1,20 @@
+.picture img {
+  width: 100%;
+  display: block;
+}
+
+.radius-none img {
+  border-radius: var(--border-radius-none);
+}
+.radius-xs img {
+  border-radius: var(--border-radius-xs);
+}
+.radius-sm img {
+  border-radius: var(--border-radius-sm);
+}
+.radius-lg img {
+  border-radius: var(--border-radius-lg);
+}
+.radius-full img {
+  border-radius: var(--border-radius-full);
+}
