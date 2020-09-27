@@ -5,7 +5,7 @@ const brandColors = {
   beige: '#F2F2F2',
   dimGrey: '#4d4d4d',
   dimGray: '#828282',
-  darkGray: '#BDBDBD'
+  darkGray: '#BDBDBD',
 }
 
 const choices = {
@@ -152,7 +152,7 @@ const choices = {
   },
   fontFamily: {
     primary: ['Poppins', 'Arial', 'sans-serif'],
-    secondary: ['Noto Sans TC', 'Verdana', 'sans-serif']
+    secondary: ['Noto Sans TC', 'Verdana', 'sans-serif'],
   },
   fontSize: {
     base: '10px',
@@ -196,6 +196,7 @@ const choices = {
   },
   borderRadius: {
     none: '0',
+    xs: '5px',
     sm: '10px',
     lg: '30px',
     full: '9999px',

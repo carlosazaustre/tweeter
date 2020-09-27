@@ -1,0 +1,30 @@
+.button {
+  background: var(--color-transparent);
+  border: none;
+  border-radius: var(--border-radius-xs);
+  color: var(--color-font-base);
+  font-family: var(--font-family-secondary);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-md);
+  padding: 8px 32px;
+  transition: all 0.5s ease;
+}
+.button:hover {
+  background-color: var(--background-color-highlight);
+}
+
+.type-primary {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+.type-primary:hover {
+  background-color: var(--color-primary);
+  filter: brightness(1.1);
+}
+
+.size-md {
+}
+
+.size-sm {
+  padding: 3px 12px;
+}

@@ -165,6 +165,7 @@
 	--box-shadow-sm: 0px 4px 5px #F2F2F2;
 	
 	--border-radius-none: 0;
+	--border-radius-xs: 5px;
 	--border-radius-sm: 10px;
 	--border-radius-lg: 30px;
 	--border-radius-full: 9999px;
