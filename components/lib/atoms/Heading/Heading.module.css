@@ -1,0 +1,43 @@
+.header {
+  font-family: var(--font-family-primary);
+  font-weight: var(--font-weight-medium);
+}
+
+.color-primary {
+  color: var(--color-black);
+}
+
+.color-secondary {
+  color: var(--color-font-base);
+}
+
+.color-tertiary {
+  color: var(--color-font-muted);
+}
+
+.size-xs {
+  font-family: var(--font-family-secondary);
+  font-size: var(--font-size-xs);
+}
+
+.size-sm {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+}
+
+.size-md {
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-normal);
+}
+
+.size-lg {
+	font-size: var(--font-size-lg);
+}
+
+.size-xl {
+	font-size: var(--font-size-xl);
+}
+
+.size-2xl {
+	font-size: var(--font-size-2xl);
+}
