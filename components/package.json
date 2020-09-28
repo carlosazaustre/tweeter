@@ -7,8 +7,8 @@
     "dev": "yarn build-tokens && yarn storybook",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint .",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
+    "storybook": "start-storybook -p 6006 -s ./lib/assets",
+    "build-storybook": "build-storybook -s ./lib/assets",
     "build-tokens": "node ./scripts/build-tokens.js"
   },
   "repository": {
