@@ -2,7 +2,7 @@ import React from 'react'
 import Icon from '../../lib/atoms/Icon'
 
 export default {
-  title: 'Atoms/Icon',
+  title: '1 - Atoms/Icon',
   component: Icon,
 }
 

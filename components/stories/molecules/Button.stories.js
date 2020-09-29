@@ -1,8 +1,8 @@
 import React from 'react'
-import Button from '../../lib/atoms/Button'
+import Button from '../../lib/molecules/Button'
 
 export default {
-  title: 'Atoms/Button',
+  title: '2 - Molecules/Button',
   component: Button,
 }
 

@@ -2,7 +2,7 @@ import React from 'react'
 import Picture from '../../lib/atoms/Picture'
 
 export default {
-  title: 'Atoms/Picture',
+  title: '1 - Atoms/Picture',
   component: Picture,
 }
 

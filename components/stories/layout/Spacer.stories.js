@@ -2,7 +2,7 @@ import React from 'react'
 import Spacer from '../../lib/layout/Spacer'
 
 export default {
-  title: 'Layout/Spacer/Default',
+  title: '4 - Layout/Spacer/Default',
   component: Spacer,
   args: {
     isVisible: true,

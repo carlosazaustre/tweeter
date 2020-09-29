@@ -2,7 +2,7 @@ import React from 'react'
 import Dropdown from '../../lib/organisms/Dropdown'
 
 export default {
-  title: 'Organisms/Dropdown',
+  title: '3 - Organisms/Dropdown',
   component: Dropdown,
 }
 

@@ -2,7 +2,7 @@ import React from 'react'
 import Avatar from '../../lib/atoms/Avatar'
 
 export default {
-  title: 'Atoms/Avatar',
+  title: '1 - Atoms/Avatar',
   component: Avatar,
 }
 

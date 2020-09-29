@@ -2,7 +2,7 @@ import React from 'react'
 import Input from '../../lib/atoms/Input'
 
 export default {
-  title: 'Atoms/Input',
+  title: '1 - Atoms/Input',
   component: Input,
 }
 
