@@ -19,9 +19,6 @@ const Spacer = ({ size, isVisible }) => (
   ></div>
 )
 
-Spacer.Vertical = Vertical
-Spacer.Horizontal = Horizontal
-
 Spacer.propTypes = {
   size: PropTypes.string,
   isVisible: PropTypes.bool,
@@ -31,5 +28,8 @@ Spacer.defaultProps = {
   size: 'none',
   isVisible: false,
 }
+
+Spacer.Vertical = Vertical
+Spacer.Horizontal = Horizontal
 
 export default Spacer

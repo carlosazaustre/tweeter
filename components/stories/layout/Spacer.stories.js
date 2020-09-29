@@ -12,7 +12,6 @@ export default {
 const Template = (props) => <Spacer {...props} />
 
 export const Default = Template.bind({})
-Default.args = {}
 
 export const ExtraSmall = Template.bind({})
 ExtraSmall.args = {

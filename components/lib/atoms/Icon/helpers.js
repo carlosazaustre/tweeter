@@ -32,6 +32,7 @@ const iconTypes = {
 const iconSizes = {
   sm: 13,
   md: 16,
+  lg: 18,
 }
 
 export const mapType = (type) => `${ICONS_ASSETS_PATH}/${iconTypes[type]}.svg`
