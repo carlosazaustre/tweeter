@@ -4,6 +4,17 @@
 
 From [devchallenges.io](https://devchallenges.io/challenges/rleoQc34THclWx1cFFKH). Create a Twitter clone app - Tweeter. Use any front-end libraries of your choice. Create your API. Don’t look at the existing solution. Fulfill user stories below:
 
+## UI-Components
+Implemented using *Atomic Design* and *Storybook Driven Development*
+* Check the Design at [Figma Files](https://www.figma.com/file/xxf4TG14lpF3vFUbBtEZUR/Tweeter?node-id=0%3A1)
+* Check the [UI Components Live Documentation with Storybook](https://tweeter-components.web.app/).
+
+## Frontend Web Application
+◻️  To Do
+
+## Backend API
+◻️  To Do
+
 ## User stories
 - [ ] User story: I can see my profile or others' profile
 - [ ] User story: When I am on a profile, I can see Tweets and Retweets. I can also filter by Tweets, Tweets and replies, Media and Likes
@@ -21,9 +32,6 @@ From [devchallenges.io](https://devchallenges.io/challenges/rleoQc34THclWx1cFFKH
 - [ ] User story: When I am on Explore, I can see the Top, Latest Tweet, or Tweet with Media. I can also choose to see the most popular people
 - [ ] User story: When I am on Bookmarks, I can see the Saved Tweet
 - [ ] User story(optional): I can search for a group.
-
-## Design
-[Figma Files](https://www.figma.com/file/xxf4TG14lpF3vFUbBtEZUR/Tweeter?node-id=0%3A1)
 
 ## License
 MIT (c) 2020 Carlos Azaustre

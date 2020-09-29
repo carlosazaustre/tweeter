@@ -11,7 +11,8 @@
     "lint:css": "stylelint \"**/*.css\"",
     "storybook": "start-storybook -p 6006 -s ./lib/assets",
     "build-storybook": "build-storybook -s ./lib/assets",
-    "build-tokens": "node ./scripts/build-tokens.js"
+    "build-tokens": "node ./scripts/build-tokens.js",
+    "deploy-storybook": "yarn build-storybook && firebase deploy"
   },
   "repository": {
     "type": "git",
