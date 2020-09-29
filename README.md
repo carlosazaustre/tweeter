@@ -7,7 +7,7 @@ From [devchallenges.io](https://devchallenges.io/challenges/rleoQc34THclWx1cFFKH
 ## UI-Components
 Implemented using *Atomic Design* and *Storybook Driven Development*
 * Check the Design at [Figma Files](https://www.figma.com/file/xxf4TG14lpF3vFUbBtEZUR/Tweeter?node-id=0%3A1)
-* Check the [UI Components Live Documentation with Storybook](https://tweeter-components.web.app/).
+* Check the [UI Components Live Documentation with Storybook](https://tweeter-components.vercel.app).
 
 ## Frontend Web Application
 ◻️  To Do
