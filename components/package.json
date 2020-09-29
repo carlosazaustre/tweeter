@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "yarn build-tokens && yarn storybook",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint .",
+    "lint": "yarn lint:js && yarn lint:css",
+    "lint:js": "eslint .",
+    "lint:css": "stylelint \"**/*.css\"",
     "storybook": "start-storybook -p 6006 -s ./lib/assets",
     "build-storybook": "build-storybook -s ./lib/assets",
     "build-tokens": "node ./scripts/build-tokens.js"
@@ -40,7 +42,9 @@
     "lint-staged": "10.3.0",
     "minireset.css": "0.0.6",
     "prettier": "2.1.1",
-    "react-is": "16.13.1"
+    "react-is": "16.13.1",
+    "stylelint": "13.7.2",
+    "stylelint-config-standard": "20.0.0"
   },
   "peerDependencies": {
     "react": "^16.13.1"

@@ -9,6 +9,7 @@
   padding: 10px 12px;
   width: 100%;
 }
+
 .input::placeholder {
   color: var(--color-font-muted);
 }

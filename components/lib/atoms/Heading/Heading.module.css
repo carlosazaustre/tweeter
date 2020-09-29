@@ -31,13 +31,13 @@
 }
 
 .size-lg {
-	font-size: var(--font-size-lg);
+  font-size: var(--font-size-lg);
 }
 
 .size-xl {
-	font-size: var(--font-size-xl);
+  font-size: var(--font-size-xl);
 }
 
 .size-2xl {
-	font-size: var(--font-size-2xl);
+  font-size: var(--font-size-2xl);
 }
